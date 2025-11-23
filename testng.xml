@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/fuado/IdeaProjects/opencard/src/test/java/testCases/TC01_AccountRegistration.java">
+        <classes>
+            <class name="testCases.TC01_AccountRegistration">
+                <methods>
+                <include name="accountRegistration"/>
+                </methods>
+            </class>
+            <class name="testCases.TC02_LoginTest"></class>
+        </classes>
+    </test>
+</suite>
